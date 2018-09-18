@@ -14,7 +14,6 @@ body, html {
 	bottom: 0;
 	left: 0;
 	right: 0;
-
 	margin: 0;
 	padding: 0;
 }
@@ -32,6 +31,10 @@ body, html {
 	width:150px;
 	height:150px;
 	border:5px solid white;
+	transition: transform 2s;
+}
+.avatar:hover {
+    transform: rotate(360deg);
 }
 .nick-text{
 	text-align: center;
@@ -39,4 +42,3 @@ body, html {
 	font-size:2rem;
 	font-weight:100;
 }
-
